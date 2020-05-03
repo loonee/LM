@@ -1,0 +1,13 @@
+class StringDemo{
+public static main void(String args[]){
+String x= "hi";
+String y= "bye";
+System.out.println("First string is: " +x);
+System.out.println("Second string is: " +y);
+System.out.println("Concat x and y: "+ a.concat(y));
+System.out.println("x in UpperCase: " + x.toUpperCase());
+System.out.println("y in LowerCase: " + y.toLowerCase());
+System.out.println("Length of x: " +x.length());
+}
+}
+ 

@@ -1,0 +1,15 @@
+class Employee{
+int id;
+double salary;
+static String dept;
+}
+
+class VariableDemo{
+public static viod main(String args[]){
+Employee tina=new Employee();
+tina.id=9893;
+tina.salary=1500;
+Employee.dept="Manager";
+system.out.println(tina.id);
+system.out.println(tina.salary);
+system.out.println(Employee.dept);

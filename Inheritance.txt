@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Square{
+int a;
+void input(){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter a value");
+a=sc.nextInt();
+}
+void sqr(){
+System.out.println("Square="+(a*a));
+}
+}
+
+class Sum extends Square{
+int b;
+void accept(){
+Scanner sc=new Scanner(System.in);
+b=sc.nextInt();
+}
+void add(){
+System.out.println("Sum="+((a=b));
+}
+}
+
+class Inheritance {
+public static void main(String args[]){
+Sum x=new Sum();
+x.input();
+x.sqr();
+x.acept();
+x.add();
+}
